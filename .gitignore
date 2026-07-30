@@ -1,0 +1,8 @@
+# Compiled binaries (built with gcc, no extension)
+01-introduction-to-c-programming/basics
+01-introduction-to-c-programming/hello
+
+# Common C build artifacts
+*.o
+*.out
+*.exe

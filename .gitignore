@@ -1,8 +1,7 @@
-# Compiled binaries (built with gcc, no extension)
-01-introduction-to-c-programming/basics
-01-introduction-to-c-programming/hello
-
-# Common C build artifacts
-*.o
+# Compiled binaries: always build with `-o name.out` so this one
+# pattern covers every exercise, in every folder, forever.
 *.out
+
+# Other common C build artifacts
+*.o
 *.exe

@@ -8,7 +8,15 @@
 |---|---|
 | [`hello.c`](hello.c) | First "hello world" style program |
 | [`basic_neso.c`](basic_neso.c) | Basic `printf` example |
-| [`variables_1.c`](variables_1.c) – [`variables_4.c`](variables_4.c) | Variable declaration, assignment, and arithmetic |
+
+### [`variables/`](variables/)
+
+| File | Description |
+|---|---|
+| [`variables_1.c`](variables/variables_1.c) | Declaring and reassigning a variable |
+| [`variables_2.c`](variables/variables_2.c) | Assigning one variable's value to another |
+| [`variables_3.c`](variables/variables_3.c) | Chained assignment (`var1 = var2 = var3 = ...`) |
+| [`variables_4.c`](variables/variables_4.c) | Arithmetic with variables |
 
 ### [`types-sizeof-limits/`](types-sizeof-limits/)
 
@@ -22,9 +30,19 @@
 | [`short_limits.c`](types-sizeof-limits/short_limits.c) | Range of signed `short int` |
 | [`short_unsigned_limits.c`](types-sizeof-limits/short_unsigned_limits.c) | Range of unsigned `short int` |
 
+### [`common-errors/`](common-errors/)
+
+Deliberately broken variants of `basic_neso.c`, one change each, to see how
+the compiler reacts. See [`common-errors/README.md`](common-errors/README.md)
+for the full breakdown.
+
 Compile and run, e.g.:
 
 ```bash
 gcc hello.c -o hello.out
 ./hello.out
 ```
+
+Alternatively, install the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+extension (by Jun Han) in VS Code, then open a `.c` file and either press
+`Ctrl+Alt+N` or right-click the editor and choose **Run Code**.

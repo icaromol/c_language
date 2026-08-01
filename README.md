@@ -37,3 +37,7 @@ gcc 01-introduction-to-c-programming/hello.c -o hello.out
 
 See [`docs/compiling-c-programs.md`](docs/compiling-c-programs.md) for a
 full explanation of the command and useful compiler flags.
+
+Alternatively, install the [Code Runner](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
+extension (by Jun Han) in VS Code, then open a `.c` file and either press
+`Ctrl+Alt+N` or right-click the editor and choose **Run Code**.

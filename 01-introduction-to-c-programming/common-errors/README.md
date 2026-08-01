@@ -1,4 +1,4 @@
-# Exercises — breaking `basic_neso.c` on purpose
+# Exercises for common errors — breaking `basic_neso.c` on purpose
 
 Each file here takes [`../basic_neso.c`](../basic_neso.c) and applies exactly
 one change, to see how the compiler reacts. Run `./compile_all.sh` to

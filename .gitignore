@@ -5,3 +5,6 @@
 # Other common C build artifacts
 *.o
 *.exe
+
+# VSCode Code Runner leftover binary
+tempCodeRunnerFile

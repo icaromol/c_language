@@ -30,6 +30,13 @@
 | [`short_limits.c`](types-sizeof-limits/short_limits.c) | Range of signed `short int` |
 | [`short_unsigned_limits.c`](types-sizeof-limits/short_unsigned_limits.c) | Range of unsigned `short int` |
 
+### [`int-range-exceed/`](int-range-exceed/)
+
+Assigns one-past-max values into `signed`/`unsigned int` variables to see
+how each type overflows. See
+[`int-range-exceed/README.md`](int-range-exceed/README.md) for the full
+breakdown.
+
 ### [`common-errors/`](common-errors/)
 
 Deliberately broken variants of `basic_neso.c`, one change each, to see how

@@ -43,6 +43,14 @@ Deliberately broken variants of `basic_neso.c`, one change each, to see how
 the compiler reacts. See [`common-errors/README.md`](common-errors/README.md)
 for the full breakdown.
 
+### [`float-double-long-double/`](float-double-long-double/)
+
+Compares precision/size across `float`, `double`, and `long double`, and
+shows how operand types (not the destination variable's type) decide
+whether a division is integer or floating-point. See
+[`float-double-long-double/README.md`](float-double-long-double/README.md)
+for the full breakdown.
+
 Compile and run, e.g.:
 
 ```bash
